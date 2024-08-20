@@ -37,8 +37,8 @@ function Tabs() {
     <>
       <div className="tabs__space"></div>
       <div className="tabs">
-        {tabs && tabs.map(tab => {
-          return <div key={tab.title} className="tabs__tab tabs__tab--active">
+        {tabs && tabs.map((tab, index) => {
+          return <div key={index} className="tabs__tab tabs__tab--active">
             <div className="tab__title">
               {tab.icon && <div className="tab__icon">{tab.icon}</div>}
               <span className="tab__title">{tab.title}</span>

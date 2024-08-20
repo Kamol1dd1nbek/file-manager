@@ -1,5 +1,5 @@
 const AddIcon = (props) => (
-  <svg 
+  <svg
     width={props.width || "15"}
     height={props.height || "15"}
     viewBox="0 0 256 256"
