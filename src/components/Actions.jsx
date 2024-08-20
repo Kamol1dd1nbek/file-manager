@@ -2,7 +2,6 @@
 import "./Actions.css";
 
 import AddIcon from "../icons/AddIcon";
-import DownArrowIcon from "../icons/DownArrowIcon";
 import ScissorsIcon from "../icons/ScissorsIcon";
 import PasteIcon from "../icons/PasteIcon";
 import CopyIcon from "../icons/CopyIcon";
@@ -16,9 +15,9 @@ import OptionsIcon from "../icons/Options";
 
 function Actions() {
   const options = [
-    { value: 'option1', label: 'Option 1' },
-    { value: 'option2', label: 'Option 2' },
-    { value: 'option3', label: 'Option 3' },
+    { value: "option1", label: "Option 1" },
+    { value: "option2", label: "Option 2" },
+    { value: "option3", label: "Option 3" },
   ];
   return (
     <div className="actions">
@@ -46,7 +45,11 @@ function Actions() {
       <SelectDown title="Sort" options={options} headerIcon={<SortIcon />} />
       <SelectDown title="View" options={options} headerIcon={<MenuIcon />} />
       <div className="line"></div>
-      <SelectDown options={options} headerIcon={<OptionsIcon />} showIcon={false} />
+      <SelectDown
+        options={options}
+        headerIcon={<OptionsIcon />}
+        showIcon={false}
+      />
     </div>
   );
 }

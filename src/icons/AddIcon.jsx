@@ -14,11 +14,7 @@ const AddIcon = (props) => (
     strokeOpacity="1"
     {...props}
   >
-    <circle
-      cx="128"
-      cy="128"
-      r="112.00011"
-    />
+    <circle cx="128" cy="128" r="112.00011" />
     <path d="M 79.999992,128 H 176.0001" />
     <path d="m 128.00004,79.99995 v 96.0001" />
   </svg>
