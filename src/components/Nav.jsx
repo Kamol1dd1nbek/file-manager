@@ -6,6 +6,7 @@ import RefreshIcon from "../icons/RefreshIcon";
 import RightArrowIcon from "../icons/RightArrowIcon";
 import UpArrowIcon from "../icons/UpArrowIcon";
 import InputComponent from "./InputComponent";
+import SearchIcon from "../icons/SearchIcon";
 
 function Nav() {
   return (
@@ -25,8 +26,10 @@ function Nav() {
         </div>
       </div>
       <div className="nav__search">
-        <InputComponent />
-        <InputComponent />
+        <InputComponent style={{width: "70%"}}/>
+        <InputComponent endIcon={<SearchIcon />} placeholder={`Search ${"desctop"}`} style={{width: "30%"}} onClick={() => {
+
+        }}/>
       </div>
     </div>
   );

@@ -23,8 +23,7 @@
   flex-direction: row;
   gap: 8px;
   height: 100%;
-  max-width: 100%;
-  width: max-content;
+  width: 100%;
 }
 
 .nav__search:first-child {

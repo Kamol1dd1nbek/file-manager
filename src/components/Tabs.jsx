@@ -1,4 +1,5 @@
 // style
+import CloseIcon from "../icons/CloseIcon";
 import "./Tabs.css";
 
 import { useState } from "react";
@@ -43,8 +44,8 @@ function Tabs() {
               {tab.icon && <div className="tab__icon">{tab.icon}</div>}
               <span className="tab__title">{tab.title}</span>
             </div>
-            <div onClick={() => removeTab(tab.id)} className="tabs__close-btn">
-              <span>+</span>
+            <div className="box" style={{ padding: "6px 9px" }}>
+              <CloseIcon width="14" height="14" onClick={() => removeTab(tab.id)} />
             </div>
           </div>
         })}
