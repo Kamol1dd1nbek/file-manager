@@ -1,0 +1,12 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 5px;
+    padding: 0px 9px;
+}
+
+.box:hover {
+    background-color: #2d2d2d;
+}

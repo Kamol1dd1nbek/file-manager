@@ -1,0 +1,37 @@
+.dropdown__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    height: 100%;
+    border-radius: 5px;
+    padding: 0px 9px;
+}
+
+.dropdown__wrapper:hover {
+    background-color: #2d2d2d;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown__items__container {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.dropdown__items__container {
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.dropdown__arrow {
+    padding-left: 5px;
+}
