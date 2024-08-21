@@ -1,7 +1,7 @@
 .tabs__space {
-  height: 10px;
+  height: 5px;
   width: 100%;
-  background-color: #202020;
+  background-color: #000;
 }
 
 .tabs {
@@ -11,7 +11,7 @@
   flex-direction: row;
   gap: 1px;
   width: 100%;
-  background-color: #202020;
+  background-color: #000;
   padding-left: 8px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .tabs__tab--active {
-  background-color: #2c2c2c;
+  background-color: #1F1F1F;
 }
 
 .tab__title {
