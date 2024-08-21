@@ -1,0 +1,7 @@
+.sidebar {
+    height: 100%;
+    width: 190px;
+    float: left;
+    padding: 6px 2px;
+    border-right: 1px solid #3A3A3A;
+}
