@@ -26,10 +26,13 @@ function Nav() {
         </div>
       </div>
       <div className="nav__search">
-        <InputComponent style={{width: "70%"}}/>
-        <InputComponent endIcon={<SearchIcon />} placeholder={`Search ${"desctop"}`} style={{width: "30%"}} onClick={() => {
-
-        }}/>
+        <InputComponent style={{ width: "70%" }} />
+        <InputComponent
+          endIcon={<SearchIcon />}
+          placeholder={`Search ${"desctop"}`}
+          style={{ width: "30%" }}
+          onClick={() => {}}
+        />
       </div>
     </div>
   );

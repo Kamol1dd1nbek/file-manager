@@ -3,6 +3,7 @@ const CloseIcon = (props) => (
         width={props.width || "15px"}
         height={props.height || "15px"}
         viewBox="0 0 18 18"
+        className="icon icon-close"
         xmlns="http://www.w3.org/2000/svg"
         {...props}
     >

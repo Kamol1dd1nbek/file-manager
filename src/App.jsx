@@ -5,6 +5,7 @@ import Actions from "./components/Actions";
 import Nav from "./components/Nav";
 import Sidebar from "./components/Sidebar";
 import Tabs from "./components/Tabs";
+import Workspace from "./components/Workspace";
 
 function App() {
   return (
@@ -16,10 +17,10 @@ function App() {
       <section>
         <Actions />
       </section>
-      <Sidebar />
-      <main>
-        <h1>Folders</h1>
-      </main>
+      <div className="context">
+        <Sidebar />
+        <Workspace />
+      </div>
       <footer>
         <p>28 items</p>
       </footer>

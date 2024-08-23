@@ -1,12 +1,22 @@
 .wrapper {
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
+    display: none;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     padding: 3px 8px;
     background-color: #1F1F1F;
+}
+
+.context {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    min-height: 0;
 }

@@ -2,11 +2,8 @@ const DownMiniArrowIcon = (props) => (
   <svg
     width={props.width || "15"}
     height={props.height || "15"}
-    version="1.1"
-    id="Layer_1"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 40 50"
+    className="icon icon-downMiniArrow"
     enableBackground="0 0 24 24"
     xmlSpace="preserve"
     {...props}

@@ -5,7 +5,7 @@ const UpArrowIcon = (props) => (
     height={props.height || "15px"}
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
-    className="icon flat-color"
+    className="icon icon-upArrow"
     opacity={props.opacity !== undefined ? props.opacity : 1}
   >
     <path

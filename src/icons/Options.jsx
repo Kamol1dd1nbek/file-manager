@@ -4,6 +4,7 @@ const OptionsIcon = (props) => (
     width={props.width || "15px"}
     height={props.height || "15px"}
     viewBox="0 0 1024 1024"
+    className="icon icon-options"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >

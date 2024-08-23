@@ -1,0 +1,7 @@
+main {
+  height: 100%;
+  width: calc(100% - 190px);
+  padding: 7px 11px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

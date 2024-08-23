@@ -5,7 +5,9 @@ const PasteIcon = (props) => (
     viewBox="0 0 32 32"
     enableBackground="new 0 0 32 32"
     xmlSpace="preserve"
+    className="icon icon-paste"
     opacity={props.opacity !== undefined ? props.opacity : 1}
+    {...props}
   >
     <path
       fill="none"

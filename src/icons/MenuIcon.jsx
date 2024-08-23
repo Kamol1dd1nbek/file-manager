@@ -4,6 +4,7 @@ const MenuIcon = (props) => (
     width={props.width || "16px"}
     height={props.height || "16px"}
     viewBox="0 0 16 16"
+    className="icon icon-menu"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     {...props}

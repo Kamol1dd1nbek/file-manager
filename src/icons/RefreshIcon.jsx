@@ -3,8 +3,10 @@ const RefreshIcon = (props) => (
     width={props.width || "15"}
     height={props.height || 15}
     viewBox="0 0 16 16"
+    className="icon icon-refresh"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
+    {...props}
   >
     <path
       fill="#FFFFFF"

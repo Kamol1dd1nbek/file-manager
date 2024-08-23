@@ -3,6 +3,7 @@ const CopyIcon = (props) => (
     width={props.width || "15"}
     height={props.height || "15"}
     viewBox="0 0 24 24"
+    className="icon icon-copy"
     fill="#fff"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
