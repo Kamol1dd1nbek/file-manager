@@ -28,6 +28,7 @@
   height: 100%;
   border-radius: 5px;
   padding: 0px 9px;
+  cursor: pointer;
 }
 
 .box:hover {

@@ -1,4 +1,5 @@
 // style
+import { useState } from "react";
 import "./App.css";
 
 import Actions from "./components/Actions";
@@ -8,6 +9,9 @@ import Tabs from "./components/Tabs";
 import Workspace from "./components/Workspace";
 
 function App() {
+
+  const [currentWorkspace, setCurrentWorkspace] = useState();
+
   return (
     <div className="wrapper">
       <header>
@@ -19,7 +23,7 @@ function App() {
       </section>
       <div className="context">
         <Sidebar />
-        <Workspace />
+        <Workspace currentWorkspace={currentWorkspace} />
       </div>
       <footer>
         <p>28 items</p>
